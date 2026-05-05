@@ -1,9 +1,9 @@
 #!/bin/bash
  
 # Paths
-SERVER_FILE="/home/a1qc054117/server_list.txt"
+SERVER_FILE="/home/user_name/server_list.txt"
 TIMESTAMP=$(date +%F_%H-%M-%S)
-CSV_OUTPUT_FILE="/home/a1qc054117/linux_health_check_final_$TIMESTAMP.csv"
+CSV_OUTPUT_FILE="/home/user_name/linux_health_check_final_$TIMESTAMP.csv"
  
 # SSH & timeout settings
 SSH_USER="ssh_username_here"
